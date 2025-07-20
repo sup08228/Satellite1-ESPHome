@@ -149,7 +149,7 @@ voice_assistant:
         service: tts.speak
         data:
           entity_id: tts.piper
-          media_player_entity_id: media_player.vlc_telnet
+          media_player_entity_id: media_player.vlc_telnet_2
           message: !lambda 'return x;'
   # When the voice assistant ends ...
   on_end:
